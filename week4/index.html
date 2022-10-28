@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Registration Page</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <header>
+    <nav class="nav-bar">
+      <ul>
+        <a href="index.html" class="active">
+          <li>Register</li>
+        </a>
+        <a href="login.html">
+          <li>Login</li>
+        </a>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="reg-container">
+      <div class="reg-l">
+        <h1>Register</h1>
+      </div>
+      <div class="reg-r">
+        <form>
+          <label for="fname">First Name:</label><br>
+          <input type="text" name="fname" id="fname" required><br>
+          <label for="lname">Last Name:</label><br>
+          <input type="text" name="lname" id="lname" required><br>
+          <label for="phone">Phone Number:</label><br>
+          <input type="tel" name="phone" id="phone" required><br>
+          <label for="email">Email:</label><br>
+          <input type="email" name="email" id="email" required><br>
+          <label for="gender">Gender:</label><br>
+          <select required>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="null">I'd rather not say</option>
+          </select><br>
+          <label for="dob">Date of Birth:</label><br>
+          <input type="date" name="dob" id="dob" required><br>
+          <label for="fav-color">Favorite Color:</label><br>
+          <input type="color" name="fav-color" id="fav-color"><br>
+          <label for="pwd">Password:</label><br>
+          <input type="password" name="pwd" id="pwd" required><br>
+          <label for="cpwd">Confirm Password:</label><br>
+          <input type="password" name="cpwd" id="cpwd" required><br>
+          <input type="submit" value="Register" class="btn">
+          <p><small>Already have an account? <a href="login.html">Login Now!</a></small></p>
+        </form>
+      </div>
+    </div>
+  </main>
+
+
+
+
+
+
+
+  <script src="script.js"></script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
+
+</html>
